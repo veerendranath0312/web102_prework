@@ -2,7 +2,7 @@
 
 Submitted by: **Veerendranath Reddy Pottipati**
 
-**Monster Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **5** hours spent in total
 
@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [x] Search for a specific game
+- [x] User can search for a specific game using a search bar
 
 ## Video Walkthrough
 
