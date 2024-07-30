@@ -55,6 +55,16 @@ function addGamesToPage(games) {
 // later, we'll call this function using a different list of games
 addGamesToPage(GAMES_JSON)
 
+// Function to filter and show funded games
+function showFundedGames() {
+  deleteChildElements(gamesContainer)
+  const fundedGames = GAMES_JSON.filter((game) => game.pledged >= game.goal)
+  addGamesToPage(fundedGames)
+}
+
+// Show funded games by default when the page loads
+document.addEventListener('DOMContentLoaded', showFundedGames)
+
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
  * total number of contributions, amount donated, and number of games on the site.
